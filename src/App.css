@@ -1,0 +1,29 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "DM Sans", sans-serif; background: #FAFAFA; color: #111; }
+button { font-family: inherit; cursor: pointer; }
+input { font-family: inherit; }
+
+.room-picker {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.room-picker h1 { font-size: 1.25rem; font-weight: 500; letter-spacing: -0.02em; }
+.room-picker input {
+  border: 1px solid #E5E5E5;
+  padding: 10px 14px;
+  width: 280px;
+  outline: none;
+  font-size: 0.9rem;
+}
+.room-picker input:focus { border-color: #0066FF; }
+.room-picker button {
+  background: #0066FF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
